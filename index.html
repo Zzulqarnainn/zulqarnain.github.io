@@ -3,84 +3,170 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101715">
-  <meta name="description" content="Portfolio of Zulqarnain Sarwar, an early-career candidate for IT support, document control, and administrative support roles in Saudi Arabia.">
-  <title>Zulqarnain Sarwar | IT Support, Documentation and Data Operations</title>
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Zulqarnain Sarwar — IT support, document control, and administrative support professional based in Yanbu, Saudi Arabia.">
+  <title>Zulqarnain Sarwar — Technical Support, Documentation & Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Zulqarnain Sarwar, home"><span class="brand-mark">ZS</span><span>Zulqarnain Sarwar<span class="brand-sub">Portfolio | 2026</span></span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
-    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="#what-i-do">What I Do</a><a href="#projects">Projects</a><a href="#background">Background</a><a href="#contact">Contact</a>
-      <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme"><span class="theme-icon" aria-hidden="true">☼</span><span class="theme-label">Light</span></button>
-    </nav>
-  </header>
-  <main id="main">
-    <section class="hero dark-section" aria-labelledby="hero-title">
-      <div class="hero-grid" aria-hidden="true"></div>
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> EARLY-CAREER CANDIDATE <span class="eyebrow-line"></span> YANBU, SAUDI ARABIA</p>
-        <h1 id="hero-title">Reliable with the details.<br><em>Curious about the systems.</em></h1>
-        <p class="hero-intro">I’m Zulqarnain Sarwar. I have a foundation in IT and AI/ML, along with experience supporting documentation, data handling, and day to day digital operations.</p>
-        <div class="hero-actions"><a class="button button-lime" href="#what-i-do">Explore role fit <span aria-hidden="true">↘</span></a><a class="button button-outline" href="mailto:zulqarnain.sarwar17@gmail.com">Contact by email <span aria-hidden="true">↗</span></a></div>
-        <div class="hero-meta"><span><small>LOCATION</small>Yanbu, Saudi Arabia</span><span><small>IQAMA</small>Transferable</span><span><small>AVAILABILITY</small>Immediate availability stated in CV</span></div>
-      </div>
-      <div class="hero-art" aria-label="Abstract technical illustration with a ZS monogram" role="img">
-        <div class="art-topline"><span>PERSONAL SYSTEMS MAP</span><span>01 | 03</span></div>
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
-        <div class="art-cross cross-a"></div><div class="art-cross cross-b"></div><div class="art-node node-a"></div><div class="art-node node-b"></div><div class="art-node node-c"></div>
-        <div class="monogram">ZS<span> | </span></div>
-        <div class="art-label label-a"><span class="label-key">01</span> SYSTEMS</div><div class="art-label label-b"><span class="label-key">02</span> RECORDS</div><div class="art-label label-c"><span class="label-key">03</span> DATA</div>
-        <div class="art-bottomline"><span>TECHNICAL FOUNDATIONS</span><span>DOCUMENTATION</span><span>DATA OPERATIONS</span></div>
-      </div>
-      <div class="hero-foot"><span>IT SUPPORT | DOCUMENT CONTROL | ADMINISTRATION</span><a href="#what-i-do" aria-label="Scroll to career paths">SCROLL TO EXPLORE ↓</a></div>
-    </section>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Zulqarnain Sarwar home">
+        <span class="brand-mark">ZS<span>.</span></span>
+        <span class="brand-name">Zulqarnain Sarwar</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#work">What I do</a>
+        <a href="#projects">Projects</a>
+        <a href="#background">Background</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </header>
 
-    <section class="section role-section" id="what-i-do">
-      <div class="section-heading"><p class="eyebrow light-eyebrow">01 | WHAT I DO</p><h2>Three directions.<br><em>One practical foundation.</em></h2><p class="section-lede">Choose a role to see the skills and experience that are most relevant, along with the matching CV.</p></div>
-      <div class="role-layout">
-        <div class="role-tabs" role="tablist" aria-label="Career paths">
-          <button class="role-tab active" id="tab-it" type="button" role="tab" aria-selected="true" aria-controls="role-panel" data-path="it"><span class="tab-number">01</span><span><strong>IT Support</strong><small>Systems | Networks | Troubleshooting</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="role-tab" id="tab-doc" type="button" role="tab" aria-selected="false" aria-controls="role-panel" data-path="doc" tabindex="-1"><span class="tab-number">02</span><span><strong>Document Control</strong><small>Records | Revisions | Project support</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="role-tab" id="tab-admin" type="button" role="tab" aria-selected="false" aria-controls="role-panel" data-path="admin" tabindex="-1"><span class="tab-number">03</span><span><strong>Administrative Support</strong><small>Data | Reporting | Coordination</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-sep">/</span> YANBU, SAUDI ARABIA</p>
+          <h1>Reliable with the details.<br><span>Curious about the systems.</span></h1>
+          <p class="hero-intro">I’m Zulqarnain Sarwar — an early-career professional combining technical foundations in IT and AI/ML with hands-on experience in documentation, data handling, and digital operations.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my profile <span>↓</span></a>
+            <a class="button button-quiet" href="mailto:zulqarnain.sarwar17@gmail.com">Get in touch <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="meta-line"></i> Transferable Iqama</span>
+            <span><i class="meta-line"></i> Immediate availability</span>
+          </div>
         </div>
-        <article class="role-panel" id="role-panel" role="tabpanel" aria-labelledby="tab-it" tabindex="0">
-          <div class="panel-top"><span class="panel-kicker" id="path-kicker">ROLE PATH | 01</span><span class="panel-status"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</span></div>
-          <h3 id="path-title">IT Support &amp; Technical Operations</h3>
-          <p id="path-summary">A technical foundation in operating systems, networking, hardware concepts, and cybersecurity fundamentals, supported by Cisco Networking Academy training and experience with technical documentation and digital workflows.</p>
-          <div class="role-targets" id="path-targets"><span>IT Support Technician</span><span>Help Desk Support</span><span>Technical Support</span><span>Junior IT Operations</span></div>
-          <h4>Relevant foundations</h4><div class="skill-chips" id="path-skills"><span>Windows 10/11</span><span>Networking fundamentals</span><span>TCP/IP | DNS | DHCP</span><span>Endpoint security</span><span>Technical documentation</span><span>Cisco Networking Academy</span></div>
-          <div class="evidence-note"><span class="evidence-icon" aria-hidden="true">↳</span><p id="path-evidence"><strong>Evidence:</strong> Cisco Networking Academy training, technical/digital operations internship tasks, and two AI/ML projects that demonstrate structured technical work. These are not presented as professional IT support employment.</p></div>
-          <div class="panel-actions"><a class="button button-dark" id="cv-download" href="cv/Zulqarnain_IT_Support_Technical_CV.docx" download>Download IT Support CV <span aria-hidden="true">↓</span></a><a class="text-link" href="#projects">View project evidence ↗</a></div>
-        </article>
-      </div>
-    </section>
+        <div class="hero-visual" aria-label="Professional profile overview">
+          <div class="visual-grid"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="core-card">
+            <div class="core-top"><span class="tiny-label">PROFILE / 001</span><span class="core-live">● AVAILABLE</span></div>
+            <div class="monogram">ZS<span>.</span></div>
+            <div class="core-name">Zulqarnain Sarwar</div>
+            <div class="core-sub">TECHNICAL · DOCUMENTATION · OPERATIONS</div>
+            <div class="core-divider"></div>
+            <div class="core-tags"><span>IT Support</span><span>Records</span><span>Data</span></div>
+          </div>
+          <div class="float-chip chip-top"><span class="chip-icon">⌘</span><span><b>Technical mindset</b><small>IT · AI/ML foundations</small></span></div>
+          <div class="float-chip chip-bottom"><span class="chip-icon">▤</span><span><b>Process focused</b><small>Accuracy · organization</small></span></div>
+          <div class="visual-index">PORTFOLIO / 2026</div>
+        </div>
+        <div class="hero-bottomline"><span>THREE ROLE PATHS</span><span>ONE CONSISTENT APPROACH: ACCURACY, SERVICE, FOLLOW-THROUGH</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </section>
 
-    <section class="scope-strip" aria-label="Portfolio overview"><div><strong>03</strong><span>Career paths</span></div><div><strong>02</strong><span>AI/ML projects in CVs</span></div><div><strong>04</strong><span>Languages listed</span></div><p>These figures describe the portfolio, not performance results.</p></section>
+      <section class="role-section section-pad" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ROLE FIT</p>
+          <h2>Choose the role.<br><span>See the relevant evidence.</span></h2>
+          <p class="section-lede">A focused view for the kind of role you’re hiring for. Select a path to see the most relevant skills and download the matching CV.</p>
+        </div>
+        <div class="role-layout">
+          <div class="role-tabs" role="tablist" aria-label="Career paths">
+            <button class="role-tab active" role="tab" id="tab-it" aria-selected="true" aria-controls="rolePanel" data-role="it">
+              <span class="role-num">01</span><span class="role-tab-text"><b>IT Support</b><small>Help desk · technical support</small></span><span class="role-arrow">↗</span>
+            </button>
+            <button class="role-tab" role="tab" id="tab-doc" aria-selected="false" aria-controls="rolePanel" data-role="doc">
+              <span class="role-num">02</span><span class="role-tab-text"><b>Document Control</b><small>Project records · documentation</small></span><span class="role-arrow">↗</span>
+            </button>
+            <button class="role-tab" role="tab" id="tab-admin" aria-selected="false" aria-controls="rolePanel" data-role="admin">
+              <span class="role-num">03</span><span class="role-tab-text"><b>Administrative Support</b><small>Office support · data · coordination</small></span><span class="role-arrow">↗</span>
+            </button>
+            <div class="role-note"><span class="note-symbol">↳</span><p>For best results, send the CV tailored to the vacancy—not all three at once.</p></div>
+          </div>
+          <article class="role-panel" id="rolePanel" role="tabpanel" aria-labelledby="tab-it">
+            <div class="panel-top"><span class="tiny-label" id="roleCode">CAREER PATH / 01</span><span class="panel-mark" id="roleMark">IT</span></div>
+            <p class="panel-kicker" id="roleKicker">SUPPORT · TROUBLESHOOTING · SYSTEMS</p>
+            <h3 id="roleTitle">Help people get back to work.</h3>
+            <p class="panel-description" id="roleDescription">Foundational knowledge across operating systems, networking, endpoint security, and user support, backed by Cisco Networking Academy training and digital-operations experience.</p>
+            <div class="skill-list" id="skillList">
+              <span>Windows 10/11</span><span>Linux fundamentals</span><span>TCP/IP · DNS · DHCP</span><span>Network troubleshooting</span><span>Endpoint security</span><span>Technical documentation</span>
+            </div>
+            <div class="evidence-block"><span class="evidence-label">RELEVANT EVIDENCE</span><p id="roleEvidence">Cisco Networking Academy coursework; YOLO monument detection and transaction fraud detection projects; internship support for digital records and operational tasks.</p></div>
+            <div class="panel-actions"><a class="button button-primary" id="cvDownload" href="cv/Zulqarnain_IT_Support_Technical_CV.docx" download>Download IT Support CV <span>↓</span></a><a class="text-link" href="#projects">View projects <span>↗</span></a></div>
+          </article>
+        </div>
+      </section>
 
-    <section class="section projects-section" id="projects">
-      <div class="section-heading split-heading"><div><p class="eyebrow light-eyebrow">02 | SELECTED PROJECTS</p><h2>Applied learning.<br><em>Structured thinking.</em></h2></div><p class="section-lede">These two AI/ML projects show another side of my technical background and the way I approach structured problems.</p></div>
-      <div class="project-grid">
-        <article class="project-card project-yolo"><div class="project-visual yolo-visual" aria-hidden="true"><div class="scan-frame"><span class="scan-corner tl"></span><span class="scan-corner tr"></span><span class="scan-corner bl"></span><span class="scan-corner br"></span><div class="monument-shape"><i></i><i></i><i></i><b></b></div><div class="detection-box"></div><span class="visual-tag">OBJECT DETECTION</span></div><span class="visual-index">CV | 01</span></div><div class="project-content"><div class="project-meta"><span>COMPUTER VISION</span><span>01 | 02</span></div><h3>Monument Detection Using YOLO</h3><p>A computer-vision project focused on automated monument detection and recognition, covering dataset preparation, image processing, testing, and model evaluation.</p><div class="project-foot"><span class="project-tag">Research publication listed in CV</span><a href="#background" class="text-link">Project context ↘</a></div></div></article>
-        <article class="project-card project-fraud"><div class="project-visual fraud-visual" aria-hidden="true"><div class="data-board"><div class="data-board-head"><span>TRANSACTION PATTERNS</span><span>ANALYSIS</span></div><div class="data-bars"><i style="--h:33%"></i><i style="--h:54%"></i><i style="--h:43%"></i><i style="--h:75%"></i><i style="--h:62%"></i><i style="--h:88%"></i><i style="--h:48%"></i><i style="--h:68%"></i></div><div class="data-lines"><span></span><span></span><span></span></div><div class="signal-node">!</div><div class="visual-tag">CLASSIFICATION</div></div><span class="visual-index">ML | 02</span></div><div class="project-content"><div class="project-meta"><span>MACHINE LEARNING</span><span>02 | 02</span></div><h3>Transaction Fraud Detection</h3><p>A classification-focused project exploring suspicious transaction patterns through data preprocessing, analysis, predictive modelling, and classification techniques.</p><div class="project-foot"><span class="project-tag">Data preparation | Classification</span><a href="#background" class="text-link">Project context ↘</a></div></div></article>
-      </div>
-      <p class="project-disclaimer">Live demos, source repositories, and verified performance metrics have not been supplied, so none are implied here.</p>
-    </section>
+      <section class="proof-band">
+        <div class="proof-item"><span class="proof-number">03</span><span class="proof-label">TARGET ROLE PATHS</span></div>
+        <div class="proof-item"><span class="proof-number">02</span><span class="proof-label">AI/ML PROJECTS DESCRIBED IN CV</span></div>
+        <div class="proof-item"><span class="proof-number">04</span><span class="proof-label">LANGUAGES LISTED IN CV</span></div>
+        <div class="proof-footnote">Figures describe the scope of this portfolio, not employment outcomes or skill proficiency ratings.</div>
+      </section>
 
-    <section class="section background-section" id="background">
-      <div class="section-heading"><p class="eyebrow light-eyebrow">03 | BACKGROUND</p><h2>Experience built around<br><em>information that works.</em></h2></div>
-      <div class="background-grid">
-        <div class="timeline-column"><h3 class="column-title">Experience &amp; education</h3><div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-meta"><span>JUNE TO JULY 2023</span><span>THANE | MUMBAI, INDIA</span></div><h4>Administrative &amp; AI-Data Support Intern</h4><p class="timeline-org">IRABOT</p><ul><li>Maintained digital documents, project records, and technical information.</li><li>Assisted with data processing, report preparation, and documentation updates.</li><li>Reviewed records for accuracy and consistency, and coordinated with team members to support daily workflows.</li></ul><p class="fine-print">My internship focused on administrative and data support rather than a formal IT support role.</p></div><div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-meta"><span>FREELANCE</span><span>INDEPENDENT WORK</span></div><h4>Graphic Designer and Creative Support</h4><p class="timeline-org">Independent work</p><ul><li>Prepared business documents, presentations, and digital communication materials.</li><li>Worked with client requirements, formatting consistency, and revision cycles using design tools.</li></ul></div><div class="timeline-item"><span class="timeline-marker"></span><div class="timeline-meta"><span>2021 TO 2024</span><span>MUMBAI, INDIA</span></div><h4>Diploma in Artificial Intelligence and Machine Learning Engineering</h4><p class="timeline-org">Anjuman-I-Islam’s Kalsekar Technical Campus, Mumbai, India</p><p>2021 to 2024. Coursework included computing foundations and AI/ML project work in computer vision and transaction fraud detection.</p><div class="school-history"><h4>School education</h4><p><strong>High school:</strong> Radcliffe, Mumbai, India</p><p><strong>Primary schooling:</strong> Radwah International School, Yanbu, Saudi Arabia</p></div></div></div>
-        <div class="credentials-column"><h3 class="column-title">Skills &amp; training</h3><div class="credential-group"><h4>IT &amp; networking fundamentals</h4><p>Windows 10/11 | Windows Server fundamentals | Linux fundamentals | TCP/IP | IP addressing | subnetting | DNS | DHCP | VPN | LAN/WAN | endpoint security | cybersecurity fundamentals</p></div><div class="credential-group"><h4>Documentation &amp; operations</h4><p>Digital documentation | records management | data entry and verification | report preparation | file organization | information management | team coordination</p></div><div class="credential-group"><h4>Software &amp; data tools</h4><p>Microsoft Word | Excel | PowerPoint | Outlook | Power BI | Python | SQL | Adobe Photoshop | CorelDRAW</p></div><div class="credential-group"><h4>Cisco Networking Academy</h4><p>IT Support Specialist Pathway | IT Customer Support Basics | Operating Systems Basics | Networking Basics | Python Essentials I &amp; II | Introduction to Cybersecurity | Endpoint Security</p><p class="fine-print">These are completed learning courses, not a CCNA or other professional certification.</p></div><div class="credential-group"><h4>HubSpot Academy</h4><p>Data Integrations | Service Hub Software | Inbound</p></div><div class="credential-group"><h4>Document-control practice</h4><p>Document control topics include electronic filing, records management, document tracking, and version control. Aconex and SharePoint are listed as fundamentals, not advanced professional experience.</p></div><div class="credential-group languages"><h4>Languages</h4><div><span>English <small>Professional working</small></span><span>Arabic <small>Conversational</small></span><span>Hindi <small>Native</small></span><span>Urdu <small>Native</small></span></div></div><p class="a-plus-note">CompTIA A+ self-study is in progress; the certification exam is pending.</p></div>
-      </div>
-    </section>
+      <section class="projects-section section-pad" id="projects">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Technical curiosity.<br><span>Practical execution.</span></h2></div>
+          <p class="section-lede">Projects listed in my CV connect data preparation, applied machine learning, testing, and problem-focused thinking.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-card-top"><span class="project-type">COMPUTER VISION</span><span class="project-index">PROJECT / 01</span></div>
+            <div class="project-art art-vision" aria-hidden="true"><div class="scan-line"></div><div class="vision-frame"><span class="frame-corner c1"></span><span class="frame-corner c2"></span><span class="frame-corner c3"></span><span class="frame-corner c4"></span><span class="vision-label">OBJECT DETECTED</span><div class="vision-shape">△</div></div><div class="art-caption">YOLO / IMAGE ANALYSIS</div></div>
+            <h3>Monument Detection Using YOLO</h3>
+            <p>Computer-vision project focused on automated monument detection and recognition, including dataset preparation, image processing, testing, and model evaluation.</p>
+            <div class="project-tags"><span>YOLO</span><span>Image processing</span><span>Model evaluation</span></div>
+            <div class="project-footer"><span>Also listed as a publication in my CV</span><span class="project-arrow">↗</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span class="project-type">MACHINE LEARNING</span><span class="project-index">PROJECT / 02</span></div>
+            <div class="project-art art-data" aria-hidden="true"><div class="data-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="data-pulse">↗</div><div class="art-caption">PATTERN ANALYSIS / DATA</div></div>
+            <h3>Transaction Fraud Detection</h3>
+            <p>Machine-learning project focused on identifying suspicious transaction patterns, with data preprocessing and analysis for predictive modeling.</p>
+            <div class="project-tags"><span>Data preprocessing</span><span>Classification</span><span>Predictive modeling</span></div>
+            <div class="project-footer"><span>Project described in CV</span><span class="project-arrow">↗</span></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project summaries reflect the descriptions in my CV. Code repositories, live demos, and quantified performance metrics can be added when available.</p>
+      </section>
 
-    <section class="contact-section dark-section" id="contact"><div class="contact-grid" aria-hidden="true"></div><div class="contact-inner"><p class="eyebrow"><span class="status-dot"></span> 04 | CONTACT</p><h2>Have a role that<br><em>could be a fit?</em></h2><p class="contact-copy">For opportunities in IT support, document control, project administration, or data operations, contact me directly.</p><div class="contact-actions"><a class="button button-lime" href="mailto:zulqarnain.sarwar17@gmail.com">Email Zulqarnain <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://www.linkedin.com/in/zulqarnainn/" target="_blank" rel="noopener noreferrer">LinkedIn profile <span aria-hidden="true">↗</span></a></div><div class="contact-details"><a href="mailto:zulqarnain.sarwar17@gmail.com"><small>EMAIL</small>zulqarnain.sarwar17@gmail.com</a><a href="tel:+966509153732"><small>PHONE</small>+966 50 915 3732</a><div><small>LOCATION</small>Yanbu, Saudi Arabia</div><div><small>IQAMA</small>Transferable</div></div><p class="availability-note">Immediate availability is stated in the CV. Please confirm it is still current before publishing.</p></div><div class="contact-side-mark" aria-hidden="true">ZS<span> | 26</span></div></section>
-  </main>
-  <footer class="site-footer"><a class="footer-brand" href="#top">ZS <span>Zulqarnain Sarwar</span></a><span>Personal portfolio | 2026</span><a href="#top">Back to top ↑</a></footer>
+      <section class="experience-section section-pad" id="background">
+        <div class="section-heading">
+          <p class="eyebrow">03 / BACKGROUND</p>
+          <h2>Built around useful<br><span>work habits.</span></h2>
+        </div>
+        <div class="background-grid">
+          <div class="timeline">
+            <div class="timeline-item"><span class="timeline-marker"></span><div><p class="timeline-date">JUN 2023 — JUL 2023</p><h3>IRABOT — Administrative & AI-Data Support Intern</h3><p>Supported documentation, digital records, data processing, report preparation, information organization, and coordination with team members.</p></div></div>
+            <div class="timeline-item"><span class="timeline-marker"></span><div><p class="timeline-date">CREATIVE SUPPORT</p><h3>Freelance Graphic Designer</h3><p>Prepared digital documents, presentations, and business materials; worked with client requirements, revisions, formatting, and delivery timelines.</p></div></div>
+            <div class="timeline-item"><span class="timeline-marker"></span><div><p class="timeline-date">EDUCATION · 2021–2024</p><h3>Artificial Intelligence & Machine Learning Engineering</h3><p>Kalsekar Engineering College, Mumbai, India. The CVs describe this qualification with slightly different wording.</p></div></div>
+          </div>
+          <aside class="credentials-card">
+            <p class="eyebrow">TOOLS & FOUNDATIONS</p>
+            <h3>Skills I can bring to the team</h3>
+            <div class="credential-group"><span>IT & SYSTEMS</span><p>Windows · Linux fundamentals · networking basics · endpoint security · Active Directory fundamentals</p></div>
+            <div class="credential-group"><span>DOCUMENTS & OFFICE</span><p>Excel · Word · PowerPoint · Outlook · digital filing · records · reporting</p></div>
+            <div class="credential-group"><span>DATA & DEVELOPMENT</span><p>Python · SQL · Power BI · AI/ML project work</p></div>
+            <div class="credential-group"><span>TRAINING</span><p>Cisco Networking Academy pathways and courses; HubSpot Academy courses listed in the CVs. CompTIA A+ exam is pending.</p></div>
+            <div class="languages"><span>LANGUAGES</span><div><b>English</b><b>Arabic</b><b>Hindi</b><b>Urdu</b></div></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contact">
+        <div class="contact-panel">
+          <div class="contact-orb" aria-hidden="true"></div>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Have a role that<br><span>could be a fit?</span></h2>
+          <p class="contact-copy">I’m based in Yanbu, Saudi Arabia, and available for opportunities. Share the role and its requirements, and I’ll respond with the most relevant CV.</p>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:zulqarnain.sarwar17@gmail.com?subject=Opportunity%20for%20Zulqarnain%20Sarwar">Email me <span>↗</span></a>
+            <a class="button button-outline-light" href="https://www.linkedin.com/in/zulqarnainn/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+          <div class="contact-details"><a href="mailto:zulqarnain.sarwar17@gmail.com">zulqarnain.sarwar17@gmail.com</a><a href="tel:+966509153732">+966 50 915 3732</a><span>Yanbu, Saudi Arabia</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">ZS<span>.</span></span><span class="brand-name">Zulqarnain Sarwar</span></a><span>Professional portfolio · 2026</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
